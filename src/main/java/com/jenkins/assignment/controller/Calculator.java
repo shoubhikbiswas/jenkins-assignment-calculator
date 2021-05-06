@@ -29,14 +29,14 @@ public class Calculator {
 		return a / b;
 	}
 	
-//	@GetMapping("square")
-//	public int square(@RequestParam int a) {
-//		return a * a;
-//	}
-//	
-//	@GetMapping("cube")
-//	public int cube(@RequestParam int a) {
-//		return a * a * a;
-//	}
+	@GetMapping("square")
+	public int square(@RequestParam int a) {
+		return a * a;
+	}
+	
+	@GetMapping("cube")
+	public int cube(@RequestParam int a) {
+		return a * a * a;
+	}
 	
 }
