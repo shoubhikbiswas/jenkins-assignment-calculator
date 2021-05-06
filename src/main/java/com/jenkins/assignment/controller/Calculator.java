@@ -29,7 +29,6 @@ public class Calculator {
 		return a / b;
 	}
 	
-	
 //	@GetMapping("square")
 //	public int square(@RequestParam int a) {
 //		return a * a;
